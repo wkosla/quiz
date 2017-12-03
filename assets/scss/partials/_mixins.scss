@@ -1,0 +1,17 @@
+//main: ../main.scss
+
+@mixin answer($border-radius) {
+  width: 50%;
+  height: 50%;
+  border-#{$border-radius}-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+  transition: background 0.5s;
+  cursor: pointer;
+  &:hover {
+    background: darken(#abbaab, 0.5);
+  }
+}
