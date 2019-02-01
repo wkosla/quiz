@@ -1,3 +1,2 @@
-# quiz
-A quick excersise. Performance heavy (uses the blur filter) quiz. Unpractical, but fun nontheless.
-Warning, tho. Some questions are dumb.
+# Quiz
+A silly quiz. Uses CSS blur filter making it quite performance heavy. Built using SCSS and vanilla JS.
